@@ -3,7 +3,7 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/admin/dashboard',
+      path: '/',
       name: 'Dashboard',
       component: () => import('../views/Admin/indexView.vue'),
     },

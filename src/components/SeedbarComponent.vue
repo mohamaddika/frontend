@@ -3,7 +3,7 @@
       
       <div style="background: rgb(82, 82, 105);" clas class="h-full px-3 pb-4  overflow-y-auto dark:bg-gray-800">
          <ul class="space-y-2 font-medium">
-            <router-link to="/admin/dashboard">
+            <router-link to="/">
                <li  :class="setActivedNavClass(rl[1])">
                   <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-white-100 dark:hover:bg-gray-700 group">
                      <svg :class="setActivedNavClass(rl[1])" class="w-5 h-5 text-white transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 21">
